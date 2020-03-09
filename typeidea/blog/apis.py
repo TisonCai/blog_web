@@ -4,7 +4,8 @@ from rest_framework.decorators import api_view
 from rest_framework import viewsets
 
 from .models import Post,Category,Tag
-from .serializers import PostSerializer,PostDetailSerializer,CategorySerializer,CategoryDetailSerializer,TagSerializer,TagDetailSerializer
+from .serializers import PostSerializer,PostDetailSerializer,CategorySerializer,CategoryDetailSerializer,\
+    TagSerializer,TagDetailSerializer
 
 class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.filter(status=Post.STATUS_NORMAL)

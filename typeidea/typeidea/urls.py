@@ -32,10 +32,15 @@ from rest_framework.documentation import include_docs_urls
 from blog.rss import LatestPostFeed
 from blog.sitemap import PostSitemap
 from django.contrib.sitemaps.views import sitemap as sitemap_views
+
+from config.serializers import SideBarSerializer
+from config.apis import SidebarViewSet
+
 router = DefaultRouter()
 router.register(r'post',PostViewSet,basename='api-post')
 router.register(r'category',CategoryViewSet,basename='api-category')
 router.register(r'tag',CategoryViewSet,basename='api-tag')
+router.register(r'sidebar',SidebarViewSet,basename='api-sidebar')
 
 # class-based view
 from blog.views import PostDetailView,IndexView,CategoryView,TagView,SearchView,AuthorView,PostAddView
@@ -68,8 +73,8 @@ urlpatterns = [
     path('ckeditor/',include('ckeditor_uploader.urls')),
 
     path('addpost/',PostAddView.as_view(), name='add-post'),
+
     # rest api
-    # path('api/post',PostList.as_view(),name='post-list')
     path('api/',include((router.urls,'rest_framework'),namespace='api')),
     path('api/docs/',include_docs_urls(title='typediea apis')),
 

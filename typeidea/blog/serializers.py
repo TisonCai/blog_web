@@ -19,6 +19,9 @@ class PostSerializer(serializers.ModelSerializer):
     )
     create_time = serializers.DateTimeField(format='%Y-%m-%d %H:%M:%S')
 
+    def create(self, validated_data):
+        return super(PostSerializer, self).create(self,validated_data)
+
     class Meta:
         model = Post
         fields = ['id','title','category','tag','owner','create_time']
@@ -68,7 +71,6 @@ class TagSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tag
         fields = ['id', 'name', 'create_time',]
-
 
 
 class TagDetailSerializer(TagSerializer):
