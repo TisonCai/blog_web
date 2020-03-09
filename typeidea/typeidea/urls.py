@@ -29,16 +29,21 @@ from login.views import LoginView,RegisterView
 from blog.apis import PostViewSet,CategoryViewSet
 from rest_framework.routers import DefaultRouter
 from rest_framework.documentation import include_docs_urls
+from blog.rss import LatestPostFeed
+from blog.sitemap import PostSitemap
+from django.contrib.sitemaps.views import sitemap as sitemap_views
 router = DefaultRouter()
 router.register(r'post',PostViewSet,basename='api-post')
 router.register(r'category',CategoryViewSet,basename='api-category')
 router.register(r'tag',CategoryViewSet,basename='api-tag')
 
-
-
 # class-based view
 from blog.views import PostDetailView,IndexView,CategoryView,TagView,SearchView,AuthorView,PostAddView
 from config.views import LinkListView
+
+sitemaps = {
+    'post': PostSitemap,
+}
 
 urlpatterns = [
     path('super_admin/', admin.site.urls),
@@ -69,6 +74,15 @@ urlpatterns = [
     path('api/docs/',include_docs_urls(title='typediea apis')),
 
     path('login/',LoginView.as_view(),name='login'),
-    path('register/',RegisterView.as_view(),name='register')
+    path('register/',RegisterView.as_view(),name='register'),
+
+    #rss
+    path('rss/',LatestPostFeed(),name='rss'),
+    #sitemap
+    path('sitemap.xml',sitemap_views,{'sitemaps':sitemaps},name='django.blog.sitemap')
+
+    # path('sitemap.xml',sitemap_views.sitemap,{'sitemaps':{'post':PostSitemap,
+    #                                                       'template_name':'sitemap.xml'}})
+
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

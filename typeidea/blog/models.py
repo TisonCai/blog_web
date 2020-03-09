@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.functional import cached_property
+
 # from login.models import MyUser
 import mistune
 # Create your models here.
@@ -94,6 +96,10 @@ class Post(models.Model):
     category = models.ForeignKey(Category,on_delete=models.CASCADE,verbose_name='分类')
     tag = models.ManyToManyField(Tag,verbose_name='标签')
     owner = models.ForeignKey(User,on_delete=models.CASCADE, verbose_name='作者')
+
+    @cached_property
+    def tags(self):
+        return ','.join(self.tag.values_list('name',flat=True))
 
     @classmethod
     def hot_posts(cls):
