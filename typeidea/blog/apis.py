@@ -25,14 +25,15 @@ class PostViewSet(viewsets.ModelViewSet):
         elif category_id is not None and category_id != -1:
             posts = Post.objects.filter(category_id=category_id)
         elif tag_id is not None and tag_id != -1:
-            posts = Post.objects.filter(tag_id=tag_id)
+            posts = Post.objects.filter(tag=Tag.objects.get(id=tag_id))
+            # posts = Post.objects.filter(tag_id=tag_id)
         elif keyword is not None:
             posts = Post.objects.filter(Q(title__icontains=keyword) | Q(desc__icontains=keyword))
         else:
             posts = Post.objects.filter(status=Post.STATUS_NORMAL)
 
         serializer = PostSerializer(posts, many=True)
-        return Response(serializer.data)
+        return Response({'result':{'data':serializer.data}})
 
 
     def retrieve(self, request, *args, **kwargs):
@@ -43,6 +44,11 @@ class PostViewSet(viewsets.ModelViewSet):
 class CategoryViewSet(viewsets.ModelViewSet):
     queryset = Category.objects.filter(status=Category.STATUS_NORMAL)
     serializer_class = CategorySerializer
+
+    def list(self, request, *args, **kwargs):
+        categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
+        serializer = CategorySerializer(categorys,many=True)
+        return Response({'result': {'data': serializer.data}})
 
     def retrieve(self, request, *args, **kwargs):
         self.serializer_class = CategoryDetailSerializer
