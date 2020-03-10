@@ -21,17 +21,14 @@ class PostViewSet(viewsets.ModelViewSet):
         print("{} {} {} keyword:{}".format(user_id, category_id, tag_id,keyword))
 
         if user_id is not None and user_id != -1:
-            print('user_id get')
             posts = Post.objects.filter(owner_id=user_id)
         elif category_id is not None and category_id != -1:
-            print('category_id get')
             posts = Post.objects.filter(category_id=category_id)
         elif tag_id is not None and tag_id != -1:
             posts = Post.objects.filter(tag_id=tag_id)
         elif keyword is not None:
             posts = Post.objects.filter(Q(title__icontains=keyword) | Q(desc__icontains=keyword))
         else:
-            print('normal get')
             posts = Post.objects.filter(status=Post.STATUS_NORMAL)
 
         serializer = PostSerializer(posts, many=True)

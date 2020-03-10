@@ -86,8 +86,6 @@ urlpatterns = [
     #sitemap
     path('sitemap.xml',sitemap_views,{'sitemaps':sitemaps},name='django.blog.sitemap')
 
-    # path('sitemap.xml',sitemap_views.sitemap,{'sitemaps':{'post':PostSitemap,
-    #                                                       'template_name':'sitemap.xml'}})
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

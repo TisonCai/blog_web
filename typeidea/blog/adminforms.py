@@ -1,12 +1,12 @@
 from django import forms
 from ckeditor.widgets import CKEditorWidget
 from ckeditor_uploader.widgets import CKEditorUploadingWidget
-from .models import Post,Category
+from .models import Post,Category,Tag
 from django.contrib.auth.models  import User
 
 class PostAdminForm(forms.ModelForm):
     desc = forms.CharField(widget=forms.Textarea, label='摘要', required=False)
-    content = forms.CharField(widget=CKEditorUploadingWidget(), label='正文', required=True)
+    content = forms.CharField(widget=CKEditorUploadingWidget(), label='正文', required=False)
 
 
 class PostAddForm(forms.Form):

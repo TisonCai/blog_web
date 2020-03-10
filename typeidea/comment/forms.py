@@ -31,7 +31,7 @@ class CommentForm(forms.ModelForm):
         content = self.cleaned_data.get("content")
         if len(content) < 10:
             raise forms.ValidationError('内容长度至少10个字符')
-        content = mistune.markdown(content)
+        # content = mistune.markdown(content)
         return content
 
     class Meta:
