@@ -21,21 +21,19 @@ class PostViewSet(viewsets.ModelViewSet):
         print("{} {} {} keyword:{}".format(user_id, category_id, tag_id,keyword))
 
         if user_id is not None and user_id != -1:
-            print('user_id get')
             posts = Post.objects.filter(owner_id=user_id)
         elif category_id is not None and category_id != -1:
-            print('category_id get')
             posts = Post.objects.filter(category_id=category_id)
         elif tag_id is not None and tag_id != -1:
-            posts = Post.objects.filter(tag_id=tag_id)
+            posts = Post.objects.filter(tag=Tag.objects.get(id=tag_id))
+            # posts = Post.objects.filter(tag_id=tag_id)
         elif keyword is not None:
             posts = Post.objects.filter(Q(title__icontains=keyword) | Q(desc__icontains=keyword))
         else:
-            print('normal get')
             posts = Post.objects.filter(status=Post.STATUS_NORMAL)
 
         serializer = PostSerializer(posts, many=True)
-        return Response(serializer.data)
+        return Response({'result':{'data':serializer.data}})
 
 
     def retrieve(self, request, *args, **kwargs):
@@ -46,6 +44,11 @@ class PostViewSet(viewsets.ModelViewSet):
 class CategoryViewSet(viewsets.ModelViewSet):
     queryset = Category.objects.filter(status=Category.STATUS_NORMAL)
     serializer_class = CategorySerializer
+
+    def list(self, request, *args, **kwargs):
+        categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
+        serializer = CategorySerializer(categorys,many=True)
+        return Response({'result': {'data': serializer.data}})
 
     def retrieve(self, request, *args, **kwargs):
         self.serializer_class = CategoryDetailSerializer

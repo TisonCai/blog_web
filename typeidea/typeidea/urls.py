@@ -26,7 +26,7 @@ from django.conf.urls.static import static
 
 from login.views import LoginView,RegisterView
 
-from blog.apis import PostViewSet,CategoryViewSet
+from blog.apis import PostViewSet,CategoryViewSet,TagViewSet
 from rest_framework.routers import DefaultRouter
 from rest_framework.documentation import include_docs_urls
 from blog.rss import LatestPostFeed
@@ -39,7 +39,7 @@ from config.apis import SidebarViewSet
 router = DefaultRouter()
 router.register(r'post',PostViewSet,basename='api-post')
 router.register(r'category',CategoryViewSet,basename='api-category')
-router.register(r'tag',CategoryViewSet,basename='api-tag')
+router.register(r'tag',TagViewSet,basename='api-tag')
 router.register(r'sidebar',SidebarViewSet,basename='api-sidebar')
 
 # class-based view
@@ -86,8 +86,6 @@ urlpatterns = [
     #sitemap
     path('sitemap.xml',sitemap_views,{'sitemaps':sitemaps},name='django.blog.sitemap')
 
-    # path('sitemap.xml',sitemap_views.sitemap,{'sitemaps':{'post':PostSitemap,
-    #                                                       'template_name':'sitemap.xml'}})
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

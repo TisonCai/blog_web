@@ -6,11 +6,8 @@ from blog.models import Post
 from comment.models import Comment  # 防止循环引用
 from blog.serializers import PostSerializer
 from comment.serializers import CommentSerializer
+from login.serializers import UserSerializer
 
-class UserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = ['id', 'username', 'email']
 
 class SideBarSerializer(serializers.ModelSerializer):
     side_list = serializers.SerializerMethodField('paginated_posts')
@@ -35,12 +32,16 @@ class SideBarSerializer(serializers.ModelSerializer):
             serializer = CommentSerializer(comment, many=True, context={'request': request})
             list = serializer.data
         elif display_type == SideBar.DISPLAY_Author:
-            serializer = UserSerializer(request.user,)
-            list = [serializer.data]
-        return {
-            'type' : display_type,
-            'sides' : list,
-        }
+            if request.user is None:
+                list = []
+            else:
+                serializer = UserSerializer(request.user,)
+                list = [serializer.data]
+        return list
+        # return {
+        #     'type' : display_type,
+        #     'sides' : list,
+        # }
 
     class Meta:
         model = SideBar

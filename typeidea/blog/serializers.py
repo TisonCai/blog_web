@@ -1,8 +1,10 @@
 from rest_framework import serializers,pagination
 
 from .models import Post,Category,Tag
+from login.serializers import UserSerializer
 
 class PostSerializer(serializers.ModelSerializer):
+    owner = UserSerializer(many=False,read_only=True)
 
     category = serializers.SlugRelatedField(
         slug_field='name',
@@ -13,10 +15,10 @@ class PostSerializer(serializers.ModelSerializer):
         read_only=True,
         slug_field='name',
     )
-    owner = serializers.SlugRelatedField(
-        read_only=True,
-        slug_field='username',
-    )
+    # owner = serializers.SlugRelatedField(
+    #     read_only=True,
+    #     slug_field='username',
+    # )
     create_time = serializers.DateTimeField(format='%Y-%m-%d %H:%M:%S')
 
     def create(self, validated_data):

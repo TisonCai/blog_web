@@ -19,9 +19,9 @@
     <span>分类:{{ post.category.name }}</span>
 </div>
 <p>
-    <!--{% autoescape off %}-->
+    {% autoescape off %}
     {{ post.content_html }}
-    <!--{% endautoescape  %}-->
+    {% endautoescape  %}
 </p>
 {% endif %}
 {% comment_block request.path %}
