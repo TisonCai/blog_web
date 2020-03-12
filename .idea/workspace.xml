@@ -4,11 +4,227 @@
     <list default="true" id="f22037a4-2e0c-4262-95ef-6109dd6b6e77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea/db.sqlite3" afterPath="$PROJECT_DIR$/typeidea/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/Image.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/Image.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/ImageFilter.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/ImageFilter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/JpegImagePlugin.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/JpegImagePlugin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/PngImagePlugin.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/PngImagePlugin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/ckeditor/static/ckeditor/galleriffic/js/jquery-1.3.2.js" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/ckeditor/static/ckeditor/galleriffic/js/jquery-1.3.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/ckeditor/widgets.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/ckeditor/widgets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/ckeditor_uploader/__init__.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/ckeditor_uploader/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/__init__.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/conf/__init__.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/conf/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/conf/global_settings.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/conf/global_settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/af/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/af/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/am/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/am/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ar/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ar/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ast/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ast/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/az/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/az/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/be/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/be/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/bg/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/bg/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/bn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/bn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/br/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/br/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/bs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/bs/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ca/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ca/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/cs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/cs/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/cy/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/cy/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/da/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/da/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/de/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/de/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/dsb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/dsb/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/el/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/el/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/en/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/en/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/en_AU/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/en_AU/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/en_GB/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/en_GB/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es_AR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es_AR/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es_CO/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es_CO/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es_MX/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es_MX/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es_VE/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/es_VE/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/et/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/et/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/eu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/eu/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/fa/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/fa/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/fi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/fi/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/fr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/fr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/fy/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/fy/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ga/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ga/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/gd/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/gd/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/gl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/gl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/he/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/he/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hi/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hsb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hsb/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hu/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hy/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/hy/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ia/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ia/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/id/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/id/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/io/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/io/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/is/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/is/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/it/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/it/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ja/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ja/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ka/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ka/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/kab/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/kab/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/kk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/kk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/km/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/km/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/kn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/kn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ko/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ko/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/lb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/lb/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/lt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/lt/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/lv/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/lv/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/mk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/mk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ml/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ml/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/mr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/mr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/my/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/my/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/nb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/nb/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ne/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ne/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/nl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/nl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/nn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/nn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/os/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/os/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/pa/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/pa/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/pt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/pt/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/pt_BR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/pt_BR/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ro/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ro/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ru/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ru/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sq/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sq/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sr_Latn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sr_Latn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sv/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sv/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ta/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ta/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/te/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/te/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/th/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/th/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/tr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/tr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/tt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/tt/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/udm/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/udm/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/uk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/uk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ur/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/ur/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/vi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/vi/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/zh_Hans/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/zh_Hant/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/locale/zh_Hant/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admindocs/middleware.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/admindocs/middleware.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/backends.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/backends.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/forms.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/hashers.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/hashers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/middleware.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/middleware.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/password_validation.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/auth/password_validation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/db/backends/postgis/adapter.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/db/backends/postgis/adapter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/db/backends/postgis/operations.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/db/backends/postgis/operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/db/backends/spatialite/base.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/db/backends/spatialite/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/gdal/geometries.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/gdal/geometries.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/gdal/libgdal.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/gdal/libgdal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/gdal/raster/source.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/gdal/raster/source.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geoip2/base.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geoip2/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/coordseq.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/coordseq.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/libgeos.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/libgeos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/point.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/point.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/prototypes/coordseq.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/prototypes/coordseq.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/prototypes/io.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/geos/prototypes/io.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/utils/layermapping.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/utils/layermapping.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/messages/api.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/messages/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/messages/storage/base.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/messages/storage/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/messages/storage/cookie.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/messages/storage/cookie.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/postgres/apps.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/postgres/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/sessions/backends/file.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/sessions/backends/file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/sites/models.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/sites/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/staticfiles/finders.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/staticfiles/finders.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/staticfiles/storage.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/staticfiles/storage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/staticfiles/utils.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/staticfiles/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/checks/caches.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/checks/caches.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/checks/security/base.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/checks/security/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/checks/translation.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/checks/translation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/checks/urls.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/checks/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/files/storage.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/files/storage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/handlers/wsgi.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/handlers/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/mail/__init__.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/mail/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/mail/message.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/mail/message.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/management/base.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/management/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/management/commands/diffsettings.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/management/commands/diffsettings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/management/commands/test.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/management/commands/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/management/utils.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/management/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/servers/basehttp.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/servers/basehttp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/signals.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/core/signals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/base/base.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/base/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/base/creation.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/base/creation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/oracle/base.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/oracle/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/postgresql/base.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/postgresql/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/postgresql/creation.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/backends/postgresql/creation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/migrations/migration.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/migrations/migration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/migrations/writer.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/migrations/writer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/fields/related.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/fields/related.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/options.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/options.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/query.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/query.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/sql/compiler.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/sql/compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/sql/query.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/db/models/sql/query.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/http/request.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/http/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/middleware/clickjacking.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/middleware/clickjacking.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/template/utils.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/template/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/templatetags/static.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/templatetags/static.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/test/signals.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/test/signals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/test/testcases.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/test/testcases.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/test/utils.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/test/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/utils/cache.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/utils/cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/utils/formats.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/utils/formats.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/utils/translation/trans_real.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/utils/translation/trans_real.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/utils/tree.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/utils/tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/csrf.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/csrf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/debug.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/debug.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/decorators/clickjacking.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/decorators/clickjacking.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/i18n.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/i18n.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/jinja2/environment.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/jinja2/environment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/jinja2/loaders.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/jinja2/loaders.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/jinja2/nodes.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/jinja2/nodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/jinja2/parser.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/jinja2/parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_internal/__init__.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_internal/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_internal/cmdoptions.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_internal/cmdoptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_internal/download.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_internal/download.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_internal/locations.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_internal/locations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/cachecontrol/_cmd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/cachecontrol/controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/cachecontrol/serialize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/distlib/compat.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/distlib/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/distlib/database.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/distlib/database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/html5lib/html5parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/html5lib/serializer.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/html5lib/serializer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/urllib3/util/connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/urllib3/util/ssl_.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/urllib3/util/timeout.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pip/_vendor/urllib3/util/timeout.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/requests/sessions.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/requests/sessions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/authentication.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/authentication.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/checks.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/checks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/filters.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/filters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/relations.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/relations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/renderers.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/renderers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/request.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/schemas/inspectors.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/schemas/inspectors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/serializers.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/settings.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/static/rest_framework/docs/js/highlight.pack.js" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/static/rest_framework/docs/js/highlight.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/views.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/rest_framework/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/setuptools/command/bdist_egg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/setuptools/command/easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/setuptools/command/setopt.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/setuptools/command/setopt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/setuptools/dist.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/setuptools/dist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/urllib3/util/connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/urllib3/util/timeout.py" afterPath="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/urllib3/util/timeout.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea/blog/apis.py" afterPath="$PROJECT_DIR$/typeidea/blog/apis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea/blog/models.py" afterPath="$PROJECT_DIR$/typeidea/blog/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea/blog/serializers.py" afterPath="$PROJECT_DIR$/typeidea/blog/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea/config/apis.py" afterPath="$PROJECT_DIR$/typeidea/config/apis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea/config/serializers.py" afterPath="$PROJECT_DIR$/typeidea/config/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea/typeidea/urls.py" afterPath="$PROJECT_DIR$/typeidea/typeidea/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typeidea/manage.py" afterPath="$PROJECT_DIR$/typeidea/manage.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,21 +241,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/comment/forms.py">
+      <file leaf-file-name="apis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeidea/blog/apis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+            <state relative-caret-position="317">
+              <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/blog/apis.py">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/typeidea/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state relative-caret-position="105">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="8" selection-end-column="87" />
+              <folding>
+                <element signature="e#84#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1011">
+              <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeidea/typeidea/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#224#233#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeidea/typeidea/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_site.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeidea/typeidea/custom_site.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,8 +308,8 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/blog/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="915">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -57,10 +317,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/config/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="405">
               <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
@@ -69,32 +329,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/login/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/comment/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="apis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/config/apis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="105">
               <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -103,34 +341,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="125" column="68" lean-forward="true" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="97" column="7" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/typeidea/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-              <folding>
-                <element signature="e#632#664#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +364,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>limit</find>
       <find>count</find>
       <find>comment_block</find>
       <find>SIDE_TYPESIDE_TYPE</find>
@@ -178,6 +393,7 @@
       <find>TagViewSet</find>
       <find>filter</find>
       <find>slug_field</find>
+      <find>debug</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,10 +402,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/typeidea/config/templates/links.html" />
-        <option value="$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/views/generic/detail.py" />
-        <option value="$PROJECT_DIR$/typeidea/config/forms.py" />
-        <option value="$PROJECT_DIR$/typeidea/comment/models.py" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/templates/comment/result.html" />
         <option value="$PROJECT_DIR$/typeidea/comment/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/typeidea/comment/templatetags/comment_block.py" />
@@ -225,18 +437,22 @@
         <option value="$PROJECT_DIR$/typeidea/typeidea/templates/blog/detail.html" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/storage.py" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/settings.py" />
-        <option value="$PROJECT_DIR$/typeidea/blog/models.py" />
         <option value="$PROJECT_DIR$/typeidea/blog/adminforms.py" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/templates/config/blocks/sidebar_comment.html" />
         <option value="$PROJECT_DIR$/typeidea/comment/views.py" />
         <option value="$PROJECT_DIR$/typeidea/comment/forms.py" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/urls.py" />
-        <option value="$PROJECT_DIR$/typeidea/blog/apis.py" />
         <option value="$PROJECT_DIR$/typeidea/config/apis.py" />
         <option value="$PROJECT_DIR$/typeidea/login/serializers.py" />
-        <option value="$PROJECT_DIR$/typeidea/blog/serializers.py" />
         <option value="$PROJECT_DIR$/typeidea/config/serializers.py" />
+        <option value="$PROJECT_DIR$/typeidea/blog/serializers.py" />
+        <option value="$PROJECT_DIR$/typeidea/blog/models.py" />
+        <option value="$PROJECT_DIR$/typeidea/blog/apis.py" />
+        <option value="$PROJECT_DIR$/typeidea/typeidea/settings/__init__.py" />
+        <option value="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" />
+        <option value="$PROJECT_DIR$/typeidea/typeidea/settings/develop.py" />
+        <option value="$PROJECT_DIR$/typeidea/manage.py" />
       </list>
     </option>
   </component>
@@ -311,140 +527,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typeidea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -544,8 +626,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -761,7 +843,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35173503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26159695" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26539925" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283767" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -789,54 +871,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/templates/blog/addpost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/config/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/config/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/templates/config/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/media/post_images/2020/01/24/img_0219.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/gis/feeds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="117" column="16" lean-forward="false" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
           <caret line="234" column="25" lean-forward="false" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-554">
           <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,25 +896,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/blog/site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/blog/site.py" />
     <entry file="file://$PROJECT_DIR$/typeidea-env/lib/python3.7/site-packages/django/contrib/sitemaps/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-398">
           <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="240" column="254" lean-forward="false" selection-start-line="240" selection-start-column="254" selection-end-line="240" selection-end-column="254" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
           <caret line="309" column="9" lean-forward="false" selection-start-line="309" selection-start-column="4" selection-end-line="309" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,9 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,25 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/custom_site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="58" lean-forward="false" selection-start-line="149" selection-start-column="58" selection-end-line="149" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,9 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,9 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,14 +1085,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/comment/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1126,26 +1106,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/typeidea/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="97" column="7" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="125" column="68" lean-forward="true" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="68" />
+        <state relative-caret-position="1665">
+          <caret line="125" column="68" lean-forward="false" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -1154,14 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="454" column="65" lean-forward="false" selection-start-line="454" selection-start-column="55" selection-end-line="454" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/blog/apis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1184,19 +1148,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/blog/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/config/apis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="105">
           <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -1206,10 +1160,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/config/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="405">
           <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/blog/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/blog/apis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/develop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/custom_site.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011">
+          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#224#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="8" selection-end-column="87" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,6 +5,9 @@ import sys
 
 
 def main():
+    # os.environ.get('TYPEIDEA_PROFILE','develop')
+    # os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'typeidea.settings.%s' % profile)
+    # 拆分setttings修改
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'typeidea.settings')
     try:
         from django.core.management import execute_from_command_line
