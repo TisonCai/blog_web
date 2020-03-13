@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import Tag, Post, Category
+from config.models import Link
 from comment.forms import CommentForm
 from comment.models import Comment
 from config.models import SideBar
@@ -141,18 +142,20 @@ class PostDetailView(CommonViewMixin, DetailView):
 
 
     def handle_vistor(self):
-        increate_pv = False
-        increate_uv = False
-        uid = self.request.uid
-        cacheKey_pv = 'pv:%s:%s' % (uid, self.request.path)
-        cacheKey_uv = 'uv:%s:%s:%s' % (uid,str(date.today()),self.request.path)
-        if not cache.get(cacheKey_pv):
-            cache.set(cacheKey_pv, 1, 1 * 60)
-            increate_pv = True
-
-        if not cache.get(cacheKey_uv):
-            cache.set(cacheKey_pv, 24, 1 * 60 * 60)
-            increate_uv = True
+        increate_pv = True
+        increate_uv = True
+        # increate_pv = False
+        # increate_uv = False
+        # uid = self.request.uid
+        # cacheKey_pv = 'pv:%s:%s' % (uid, self.request.path)
+        # cacheKey_uv = 'uv:%s:%s:%s' % (uid,str(date.today()),self.request.path)
+        # if not cache.get(cacheKey_pv):
+        #     cache.set(cacheKey_pv, 1, 1 * 60)
+        #     increate_pv = True
+        #
+        # if not cache.get(cacheKey_uv):
+        #     cache.set(cacheKey_pv, 24, 1 * 60 * 60)
+        #     increate_uv = True
 
         if increate_pv and increate_uv:
             Post.objects.filter(pv=self.object.id).update(pv=F('pv')+1,uv=F('uv')+1)
@@ -201,3 +204,164 @@ def post_detail(request, post_id):
         }
     context.update(Category.get_navs())
     return render(request, 'blog/detail.html', context=context)
+
+
+
+# 首页
+class TestIndexView(ListView):
+    queryset = Post.lastes_posts()
+    paginate_by = 8
+    template_name = 'blog/_index.html'
+    context_object_name = 'post_list'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(TestIndexView, self).get_context_data(**kwargs)
+        tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
+        categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
+        links = Link.objects.filter(status=Link.STATUS_NORMAL)
+        context.update({
+            'keyword': '',
+            'tags': tags,
+            'categorys': categorys,
+            'links': links,
+        })
+        context.update(Category.get_navs())
+        return context
+
+
+class HotIndexView(ListView):
+    queryset = Post.hot_posts()
+    paginate_by = 8
+    template_name = 'blog/_index.html'
+    context_object_name = 'post_list'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(HotIndexView, self).get_context_data(**kwargs)
+        tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
+        categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
+        links = Link.objects.filter(status=Link.STATUS_NORMAL)
+        context.update({
+            'keyword': '',
+            'tags': tags,
+            'categorys': categorys,
+            'links': links,
+        })
+        context.update(Category.get_navs())
+        return context
+
+
+class SearchIndexView(ListView):
+    queryset = Post.hot_posts()
+    paginate_by = 8
+    template_name = 'blog/_index.html'
+    context_object_name = 'post_list'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(SearchIndexView, self).get_context_data(**kwargs)
+        tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
+        categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
+        links = Link.objects.filter(status=Link.STATUS_NORMAL)
+        context.update({
+            'keyword': self.request.GET.get('keyword',''),
+            'tags': tags,
+            'categorys': categorys,
+            'links': links,
+        })
+        return context
+
+    def get_queryset(self):
+        queryset = super(SearchIndexView, self).get_queryset()
+        keyword = self.request.GET.get('keyword')
+        if  not keyword:
+            return queryset
+        return queryset.filter(Q(title__icontains=keyword) | Q(desc__icontains=keyword))
+
+
+
+class PostDetailIndexView(CommonViewMixin, DetailView):
+    queryset = Post.lastes_posts()
+    context_object_name = 'post'
+    template_name = 'blog/_detail.html'
+    pk_url_kwarg = 'post_id'
+
+    def get(self, request, *args, **kwargs):
+        response = super().get(request,*args, **kwargs)
+        self.handle_vistor()
+        return response
+
+
+    def handle_vistor(self):
+        increate_pv = True
+        increate_uv = True
+        # increate_pv = False
+        # increate_uv = False
+        # uid = self.request.uid
+        # cacheKey_pv = 'pv:%s:%s' % (uid, self.request.path)
+        # cacheKey_uv = 'uv:%s:%s:%s' % (uid,str(date.today()),self.request.path)
+        # if not cache.get(cacheKey_pv):
+        #     cache.set(cacheKey_pv, 1, 1 * 60)
+        #     increate_pv = True
+        #
+        # if not cache.get(cacheKey_uv):
+        #     cache.set(cacheKey_pv, 24, 1 * 60 * 60)
+        #     increate_uv = True
+        if increate_pv and increate_uv:
+            Post.objects.filter(pv=self.object.id).update(pv=F('pv')+1,uv=F('uv')+1)
+        elif increate_pv:
+            Post.objects.filter(pv=self.object.id).update(pv=F('pv') + 1)
+        elif increate_uv:
+            Post.objects.filter(pv=self.object.id).update(uv=F('uv') + 1)
+
+
+
+class CategoryIndexView(ListView):
+    queryset = Post.lastes_posts()
+    paginate_by = 8
+    template_name = 'blog/_category.html'
+    context_object_name = 'post_list'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(CategoryIndexView, self).get_context_data(**kwargs)
+        tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
+        categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
+        category_id = self.kwargs.get('category_id')
+        category = get_object_or_404(Category, pk=category_id)
+        post_list = Post.get_by_category(category_id)[0]
+
+        links = Link.objects.filter(status=Link.STATUS_NORMAL)
+        context.update({
+            'keyword': '',
+            'tags': tags,
+            'categorys': categorys,
+            'links': links,
+            'post_list': post_list,
+            'category': category,
+        })
+        context.update(Category.get_navs())
+        return context
+
+
+class TagIndexView(ListView):
+    queryset = Post.lastes_posts()
+    paginate_by = 8
+    template_name = 'blog/_tag.html'
+    context_object_name = 'post_list'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(TagIndexView, self).get_context_data(**kwargs)
+        tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
+        categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
+        tag_id = self.kwargs.get('tag_id')
+        tag = get_object_or_404(Tag, pk=tag_id)
+        post_list = Post.get_by_tag(tag_id)[0]
+
+        links = Link.objects.filter(status=Link.STATUS_NORMAL)
+        context.update({
+            'keyword': '',
+            'tags': tags,
+            'categorys': categorys,
+            'links': links,
+            'post_list': post_list,
+            'tag': tag,
+        })
+        return context

@@ -43,8 +43,11 @@ router.register(r'tag',TagViewSet,basename='api-tag')
 router.register(r'sidebar',SidebarViewSet,basename='api-sidebar')
 
 # class-based view
-from blog.views import PostDetailView,IndexView,CategoryView,TagView,SearchView,AuthorView,PostAddView
+from blog.views import PostDetailView,IndexView,CategoryView,TagView,\
+                        SearchView,AuthorView,PostAddView,\
+                        TestIndexView,HotIndexView,SearchIndexView,PostDetailIndexView,CategoryIndexView,TagIndexView
 from config.views import LinkListView
+
 
 sitemaps = {
     'post': PostSitemap,
@@ -63,6 +66,15 @@ urlpatterns = [
     path('tag/<int:tag_id>',TagView.as_view(), name='tag-detail'),
 
     path('search/',SearchView.as_view(), name='search'),
+
+    # test
+    path('index/',TestIndexView.as_view(),name='nIndex'),
+    path('hot/',HotIndexView.as_view(),name='hotIndex'),
+    path('nsearch/',SearchIndexView.as_view(),name='searchIndex'),
+    path('npost/<int:post_id>',PostDetailIndexView.as_view(), name='npost-detail'),
+    path('ncategory/<int:category_id>',CategoryIndexView.as_view(),name='ncategory-detail'),
+    path('ntag/<int:tag_id>',TagIndexView.as_view(), name='ntag-detail'),
+
 
     path('author/<int:owner_id>', AuthorView.as_view(), name='author'),
 

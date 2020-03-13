@@ -18,6 +18,10 @@ class Category(models.Model):
     is_nav = models.BooleanField(default=False,verbose_name='是否为导航')
     owner = models.ForeignKey(User,on_delete=models.CASCADE,verbose_name='作者')
     create_time = models.DateTimeField(auto_now_add=True,verbose_name='创建时间')
+    desc = models.CharField(max_length=2020,verbose_name='分类描述',default='')
+
+    def link_post_count(self):
+        return Post.objects.filter(category_id=self.id).count()
 
     @staticmethod
     def get_navs():
@@ -66,6 +70,7 @@ class Tag(models.Model):
     status = models.PositiveIntegerField(default=STATUS_NORMAL,choices=STATUS_ITEMS,verbose_name='状态')
     owner = models.ForeignKey(User,on_delete=models.CASCADE,verbose_name='作者')
     create_time = models.DateTimeField(auto_now_add=True,verbose_name='创建时间')
+    desc = models.CharField(max_length=2020, verbose_name='标签描述', default='')
 
     def __str__(self):
         return self.name
