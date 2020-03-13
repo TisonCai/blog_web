@@ -23,11 +23,15 @@ class PostViewSet(viewsets.ModelViewSet):
         if user_id is not None and user_id != -1:
             posts = Post.objects.filter(owner_id=user_id)
         elif category_id is not None and category_id != -1:
-            posts = Post.objects.filter(category_id=category_id)
+            if category_id == '11':
+                posts = Post.objects.all()
+            else:
+                posts = Post.objects.filter(category_id=category_id)
         elif tag_id is not None and tag_id != -1:
             posts = Post.objects.filter(tag=Tag.objects.get(id=tag_id))
             # posts = Post.objects.filter(tag_id=tag_id)
         elif keyword is not None:
+            print('keyword:{}'.format(keyword))
             posts = Post.objects.filter(Q(title__icontains=keyword) | Q(desc__icontains=keyword))
         else:
             posts = Post.objects.filter(status=Post.STATUS_NORMAL)

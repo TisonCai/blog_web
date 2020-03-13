@@ -1,0 +1,218 @@
+
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="referrer" content="origin">
+    <!-- TDK and ICO -->
+    <title>CI/CD_文章分类_TendCode</title>
+
+    <meta name="description" content="CI/CD 是一种通过在应用开发阶段引入自动化来频繁向客户交付应用的方法。CI/CD 的核心概念是持续集成、持续交付和持续部署。具体而言，CI/CD 在整个应用生命周期内（从集成和测试阶段，到交付和部署）引入了持续自动化和持续监控。">
+    <meta name="keywords" content="CI/CD">
+
+    <link rel="shortcut icon" href="/static/blog/img/favicon.ico" type="image/x-icon"/>
+    <!-- Bootstrap and font-awesome CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="{% static 'js/blog/headroom.min.js' %}"></script>
+    <!-- blog CSS -->
+    <link href="{% static 'css/blog/base.css' %}" rel="stylesheet"/>
+
+
+    <!--根据cookies判断是否启用暗色主题-->
+
+</head>
+<body>
+<!--导航开始-->
+
+<nav class="navbar navbar-expand-md bg-white fixed-top blog-navbar py-md-0">
+    <a class="navbar-brand d-md-none d-lg-block" id="site-logo-name" href="/">
+        <strong class="px-2">TendCode</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-2">
+                <a class="nav-link py-md-3 active" href="{% url 'nIndex'%}"><i class="fa fa-home mr-1"></i>首页<span class="sr-only">(current)</span></a>
+            </li>
+
+            <form class="nav-item navbar-form mr-2 py-md-2" role="search" method="get" id="searchform" action="/nsearch/">
+                 <div class="input-group">
+                    <input type="search" name="keyword" class="form-control rounded-0" placeholder="请输入关键词搜索"
+                           autocomplete="off" required=True value="{{ keyword }}">
+                    <div class="input-group-btn">
+                        <button class="btn btn-info rounded-0" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </ul>
+    </div>
+</nav>
+
+<!--导航结束-->
+
+<!--消息块-->
+
+
+<!--回到顶部按钮-->
+<div class="text-center" id="to-top">
+    <i class="fa fa-chevron-up" id="btn-top" title="回到顶部"></i>
+</div>
+
+<!--主要内容块-->
+<main>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="description bg-white px-3 pt-3 pb-1">
+                <p class="float-right mb-0">共<span class="mx-2 text-info">{{ post_list.count }}</span>篇</p>
+                <h1 class="f-17"><strong>文章标签：{{ tag.name }}</strong></h1>
+                <p class="f-16">{{ tag.desc }}</p>
+            </div>
+            <div class="text-secondary font-weight-bold py-2 f-15 choice">
+
+            </div>
+
+
+<div class="summary-list">
+
+    {% for post in post_list %}
+    <div class="media mb-1 mb-sm-2 p-2 p-lg-3">
+        <div class="media-body">
+            <div class="text-muted mb-2 f-12">
+                <span>作者: {{ post.owner.username }}</span>
+                <span><i class="fa fa-calendar-times-o ml-2 mr-1"></i>{{ post.create_time }}</span>
+            </div>
+            <h2 class="mt-0 font-weight-bold text-info f-17">
+                <a href="{% url 'npost-detail' post.id %}" target="_blank">{{ post.title }}</a>
+            </h2>
+            <p class="d-none d-sm-block mb-2 f-15">{{ post.desc }}</p>
+            <p class="d-block d-sm-none mb-2 f-15">自从博客项目上线以来，经常会有用到我博客项目的人问我后台编辑博文为啥没有编辑器，博主是怎么编辑博文的？我每次的回答基本都是说随便</p>
+            <div class="text-muted mb-0 f-12">
+                <a class="cate" href="{% url 'ncategory-detail' post.category.id %}" title="查看当前分类下更多文章">
+                    <i class="fa fa-book mr-1"></i>{{ post.category.name }}</a>
+                <span><i class="fa fa-eye ml-2 mr-1"></i>{{ post.pv }}</span>
+            </div>
+        </div>
+    </div>
+    {% endfor%}
+
+
+</div>
+
+        </div>
+        <div class="col-lg-4">
+
+
+
+<!--个人空间-->
+            <div class="card border-0 rounded-0 px-3 mb-2 mb-md-3 d-none d-lg-block" id="home-card">
+    <div class="card-header bg-white px-0">
+        <strong><i class="fa fa-paper-plane mr-2 f-17"></i>个人空间</strong>
+        <img class="float-right" id="theme-img"
+             src="{% static 'images/github.png' %}"
+             alt="theme-toggle" title="切换主题">
+    </div>
+    <div class="card-body px-0 pt-3 pb-1">
+        <div class="row text-center">
+            <div class="col">
+                <a href="https://github.com/TisonCai" target="_blank" title="进入博主的Github查看博客源码">
+                    <img style="max-width:40px" alt="博主的github" src="{% static 'images/github.png' %}">
+                    <p class="mt-2">Github</p>
+                </a>
+            </div>
+            <div class="col">
+                <a href="{% url 'django.blog.sitemap' %}" target="_blank" title="订阅博客">
+                    <img style="max-width:40px" alt="订阅博客RSS" src="{% static 'images/rss.png' %}">
+                    <p class="mt-2">RSS订阅</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--文章分类-->
+            <div class="card border-0 rounded-0 px-3 mb-2 mb-md-3" id="category-card">
+
+    <div class="card-header bg-white px-0">
+        <strong><i class="fa fa-book mr-2 f-17"></i>文章分类</strong>
+    </div>
+
+    <ul class="list-group list-group-flush f-16">
+        {% for cate in categorys %}
+        <li class="list-group-item d-flex justify-content-between align-items-center pr-2 py-2">
+            <a class="category-item" href="{% url 'ncategory-detail' cate.id %}"
+               title="查看{{ cate.name }}分类下所有文章">{{ cate.name }}</a>
+            <span class="badge text-center" title="当前分类下有{{ cate.link_post_count }}篇文章">{{ cate.link_post_count }}</span>
+        </li>
+        {% endfor %}
+
+    </ul>
+</div>
+
+
+<!--标签云-->
+
+            <div class="card border-0 rounded-0 px-3 mb-2 mb-md-3" id="tag-card">
+    <div class="card-header bg-white px-0">
+        <strong><i class="fa fa-tags mr-2 f-17"></i>标&nbsp;签&nbsp;云</strong>
+    </div>
+    <div class="card-body px-0 py-3">
+        <div class="tag-cloud">
+            {% for tag in tags %}
+                <a href="{% url 'ntag-detail' tag.id %}" class="tags f-16" id="tag-1"
+               title="{{ tag.name }}标签下有3篇文章">{{ tag.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!--友链-->
+            <div class="d-none d-lg-block">
+    <div class="card border-0 rounded-0 px-3 mb-2 mb-md-3" id="friends-card">
+        <div class="card-header bg-white px-0">
+            <strong><i class="fa fa-link mr-2 f-17"></i>友情链接</strong>
+        </div>
+        <div class="card-body px-0 py-3">
+            <div class="tool-list">
+
+                {% for link in links %}
+                <div class="w-50 float-left text-center mb-2">
+                    <div class="mx-2">
+                        <a href="{{ link.href }}" title="{{ link.title }}" target="_blank">
+                            {{ link.title }}</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<!--js cookie 插件-->
+<script src="{% static 'js/blog/js.cookie.min.js' %}"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+$(function(){var myElement=document.querySelector(".blog-navbar");var headroom=new Headroom(myElement);headroom.init()});
+</script>
+<script src="{% static 'js/blog/base.js' %}"></script>
+
+
+</body>
+</html>

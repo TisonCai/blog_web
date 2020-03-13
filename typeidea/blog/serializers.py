@@ -3,41 +3,6 @@ from rest_framework import serializers,pagination
 from .models import Post,Category,Tag
 from login.serializers import UserSerializer
 
-class PostSerializer(serializers.ModelSerializer):
-    owner = UserSerializer(many=False,read_only=True)
-
-    category = serializers.SlugRelatedField(
-        slug_field='name',
-        read_only=True,
-    )
-    tag = serializers.SlugRelatedField(
-        many=True,
-        read_only=True,
-        slug_field='name',
-    )
-    # owner = serializers.SlugRelatedField(
-    #     read_only=True,
-    #     slug_field='username',
-    # )
-    create_time = serializers.DateTimeField(format='%Y-%m-%d %H:%M:%S')
-
-    def create(self, validated_data):
-        return super(PostSerializer, self).create(self,validated_data)
-
-    class Meta:
-        model = Post
-        fields = ['id','title','category','tag','owner','create_time']
-        # extra_kwargs = {
-        #     'url': {'view_name': 'api-post-detail'}
-        # }
-
-
-class PostDetailSerializer(PostSerializer):
-    class Meta:
-        model = Post
-        fields = ['id','title','category','tag','owner','create_time','content_html']
-
-
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
@@ -69,6 +34,7 @@ class CategoryDetailSerializer(CategorySerializer):
         fields = ['id', 'name', 'create_time', 'posts']
 
 
+
 class TagSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tag
@@ -90,3 +56,30 @@ class TagDetailSerializer(TagSerializer):
     class Meta:
         model = Tag
         fields = ['id', 'name', 'create_time','post']
+
+
+class PostSerializer(serializers.ModelSerializer):
+    owner = UserSerializer(many=False,read_only=True)
+    category =  CategorySerializer()
+    tag = TagSerializer(many=True)
+
+    create_time = serializers.DateTimeField(format='%Y-%m-%d %H:%M:%S')
+
+    def create(self, validated_data):
+        return super(PostSerializer, self).create(self,validated_data)
+
+    class Meta:
+        model = Post
+        fields = ['id','title','category','tag','owner','create_time','desc']
+        # extra_kwargs = {
+        #     'url': {'view_name': 'api-post-detail'}
+        # }
+
+
+class PostDetailSerializer(PostSerializer):
+    class Meta:
+        model = Post
+        fields = ['id','title','category','tag','owner','create_time','content_html']
+
+
+
