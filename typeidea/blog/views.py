@@ -38,7 +38,7 @@ def post_list(request,category_id=None, tag_id=None):
 
 class CommonViewMixin:
     def get_context_data(self,**kwargs):
-        context = super().get_context_data(**kwargs)
+        context = super(CommonViewMixin, self).get_context_data(**kwargs)
         context.update({
             'sidebars': SideBar.get_all()
         })
@@ -53,7 +53,8 @@ class IndexView(ListView):
     template_name = 'blog/list.html'
     context_object_name = 'post_list'
 
-    def get_context_data(self, *, object_list=None, **kwargs):
+
+    def get_context_data(self, *args, **kwargs):
         context = super(IndexView, self).get_context_data(**kwargs)
         context.update({
             'keyword': ''
@@ -64,7 +65,7 @@ class IndexView(ListView):
 
 # 搜索页
 class SearchView(IndexView):
-    def get_context_data(self, *, object_list=None, **kwargs):
+    def get_context_data(self, *args, **kwargs):
         context = super(SearchView, self).get_context_data(**kwargs)
         context.update({
             'keyword': self.request.GET.get('keyword','')
@@ -90,7 +91,8 @@ class AuthorView(IndexView):
 # 分类页
 class CategoryView(IndexView):
     pk_url_kwarg = 'category_id'
-    def get_context_data(self, *, object_list=None, **kwargs):
+
+    def get_context_data(self, *args, **kwargs):
         context = super(CategoryView, self).get_context_data(**kwargs)
         category_id = self.kwargs.get('category_id')
         category = get_object_or_404(Category,pk=category_id)
@@ -102,14 +104,14 @@ class CategoryView(IndexView):
     def get_queryset(self):
         '''k控制数据源'''
         '''重写queryset，根据分类设置'''
-        queryset = super().get_queryset()
+        queryset = super(CategoryView, self).get_queryset()
         category_id = self.kwargs.get('category_id')
         return queryset.filter(category_id=category_id)
 
 
 # 标签页
 class TagView(IndexView):
-        def get_context_data(self, *, object_list=None, **kwargs):
+        def get_context_data(self, *args, **kwargs):
             context = super(TagView, self).get_context_data(**kwargs)
             tag_id = self.kwargs.get('tag_id')
             tag = get_object_or_404(Tag, pk=tag_id)
@@ -120,7 +122,7 @@ class TagView(IndexView):
 
         def get_queryset(self):
             '''重写queryset，根据分类设置'''
-            queryset = super().get_queryset()
+            queryset = super(TagView, self).get_queryset()
             tag_id = self.kwargs.get('tag_id')
             print('kekeke')
             print(queryset)
@@ -136,7 +138,7 @@ class PostDetailView(CommonViewMixin, DetailView):
     pk_url_kwarg = 'post_id'
 
     def get(self, request, *args, **kwargs):
-        response = super().get(request,*args, **kwargs)
+        response = super(PostDetailView, self).get(request,*args, **kwargs)
         self.handle_vistor()
         return response
 
@@ -214,7 +216,7 @@ class TestIndexView(ListView):
     template_name = 'blog/_index.html'
     context_object_name = 'post_list'
 
-    def get_context_data(self, *, object_list=None, **kwargs):
+    def get_context_data(self, *args, **kwargs):
         context = super(TestIndexView, self).get_context_data(**kwargs)
         tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
         categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
@@ -235,7 +237,7 @@ class HotIndexView(ListView):
     template_name = 'blog/_index.html'
     context_object_name = 'post_list'
 
-    def get_context_data(self, *, object_list=None, **kwargs):
+    def get_context_data(self, *args, **kwargs):
         context = super(HotIndexView, self).get_context_data(**kwargs)
         tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
         categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
@@ -256,7 +258,7 @@ class SearchIndexView(ListView):
     template_name = 'blog/_index.html'
     context_object_name = 'post_list'
 
-    def get_context_data(self, *, object_list=None, **kwargs):
+    def get_context_data(self, *args, **kwargs):
         context = super(SearchIndexView, self).get_context_data(**kwargs)
         tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
         categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
@@ -285,7 +287,7 @@ class PostDetailIndexView(CommonViewMixin, DetailView):
     pk_url_kwarg = 'post_id'
 
     def get(self, request, *args, **kwargs):
-        response = super().get(request,*args, **kwargs)
+        response = super(PostDetailIndexView, self).get(request,*args,**kwargs)
         self.handle_vistor()
         return response
 
@@ -320,7 +322,7 @@ class CategoryIndexView(ListView):
     template_name = 'blog/_category.html'
     context_object_name = 'post_list'
 
-    def get_context_data(self, *, object_list=None, **kwargs):
+    def get_context_data(self, *args, **kwargs):
         context = super(CategoryIndexView, self).get_context_data(**kwargs)
         tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
         categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
@@ -347,7 +349,8 @@ class TagIndexView(ListView):
     template_name = 'blog/_tag.html'
     context_object_name = 'post_list'
 
-    def get_context_data(self, *, object_list=None, **kwargs):
+    #
+    def get_context_data(self, *args, **kwargs):
         context = super(TagIndexView, self).get_context_data(**kwargs)
         tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
         categorys = Category.objects.filter(status=Category.STATUS_NORMAL)

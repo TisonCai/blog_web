@@ -10,7 +10,7 @@
     <!-- TDK and ICO -->
     <title>Tend to Code_一个使用django和bootstrap搭建的个人博客_TendCode</title>
 
-    <meta name="description" content="TendCode是一个Django搭建的博客，本网站后端使用Django框架搭建，前端使用Bootstrap框架，主要分享博主在Python以及其他编程语言的学习心得。">
+    <meta name="description" content="LetCode是一个Django搭建的博客，本网站后端使用Django框架搭建，前端使用Bootstrap框架，主要分享博主在Python以及其他编程语言的学习心得。">
     <meta name="keywords" content="Python自学,Python爬虫,Django博客,Python web开发,个人博客">
     <!--站长验证-->
     <meta name="baidu-site-verification" content="sNWuPb0U4B" /><meta name="sogou_site_verification" content="3B35Ud7njX"/><meta name="shenma-site-verification" content="05809a2214c7c161432241f733560ddf_1548246599"><meta name="360-site-verification" content="98e4595c433b13d10266ad8ea87ed539" />
@@ -29,8 +29,8 @@
 <!--导航开始-->
 
 <nav class="navbar navbar-expand-md bg-white fixed-top blog-navbar py-md-0">
-    <a class="navbar-brand d-md-none d-lg-block" id="site-logo-name" href="/">
-        <strong class="px-2">TendCode</strong>
+    <a class="navbar-brand d-md-none d-lg-block" id="site-logo-name" href="/index/">
+        <strong class="px-2">LetCode</strong>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,9 +39,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item mr-2">
-                <a class="nav-link py-md-3 active" href="{% url 'nIndex'%}"><i class="fa fa-home mr-1"></i>首页<span class="sr-only">(current)</span></a>
+                <a class="nav-link py-md-3 active" href="{% url 'nIndex'%}">
+                    <i class="fa fa-home mr-1"></i>首页<span class="sr-only">(current)</span></a>
             </li>
-
+            <li class="nav-item mr-2">
+                <a class="nav-link py-md-3 " href="/admin/">
+                    <i class="fa fa-user mr-1"></i>登录<span class="sr-only">(current)</span></a>
+            </li>
             <form class="nav-item navbar-form mr-2 py-md-2" role="search" method="get" id="searchform" action="/nsearch/">
                  <div class="input-group">
                     <input type="search" name="keyword" class="form-control rounded-0" placeholder="请输入关键词搜索"
@@ -87,7 +91,7 @@
     <div class="carousel-inner">
 
         <div class="carousel-item active">
-                <a href="/article/docker-rebuild/">
+                <a href="/index/">
                     <img class="w-100" src="{% static 'images/logo.jpg' %}" alt="Django博客系统">
                 </a>
             </div>
@@ -101,12 +105,12 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-            <div class="text-secondary font-weight-bold py-2 f-15 choice">
-                <a class="pb-2 active" href="/index/">
-                    <i class="fa fa-bars mr-1"></i>时间排序</a>
-                <a class="pb-2 ml-4" href="/hot/">
-                    <i class="fa fa-fire mr-1"></i>热度排序</a>
-            </div>
+{#            <div class="text-secondary font-weight-bold py-2 f-15 choice">#}
+{#                <a class="pb-2 active" href="/index/">#}
+{#                    <i class="fa fa-bars mr-1"></i>时间排序</a>#}
+{#                <a class="pb-2 ml-4" href="/hot/">#}
+{#                    <i class="fa fa-fire mr-1"></i>热度排序</a>#}
+{#            </div>#}
 
 <div class="summary-list">
 
@@ -134,11 +138,6 @@
 </div>
             <div class="text-center mt-2 mt-sm-1 mt-md-0 mb-3 f-16">
 
-    <span class="text-secondary" title="当前页已经是首页">上一页</span>
-
-    <span class="mx-2">第&nbsp;1&nbsp;/&nbsp;4&nbsp;页</span>
-
-    <a class="text-success" href="?page=2">下一页</a>
 
 </div>
         </div>

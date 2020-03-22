@@ -54,21 +54,20 @@ sitemaps = {
 }
 
 urlpatterns = [
-    path('super_admin/', admin.site.urls),
-    path('admin/', custom_site.urls),
+    path('super_admin/', admin.site.urls, ),
+    path('admin/', custom_site.urls ),
     # path('',post_list,name='index'),
-    path('',IndexView.as_view(),name='index'),
+
+    # path('',IndexView.as_view(),name='index'),
     # path('post/<int:post_id>',post_detail, name='post-detail'),
-    path('post/<int:post_id>',PostDetailView.as_view(), name='post-detail'),
+    # path('post/<int:post_id>',PostDetailView.as_view(), name='post-detail'),
     # path('category/<int:category_id>',post_list,name='category-detail'),
-    path('category/<int:category_id>',CategoryView.as_view(),name='category-detail'),
+    # path('category/<int:category_id>',CategoryView.as_view(),name='category-detail'),
     # path('tag/<int:tag_id>',post_list, name='tag-detail'),
-    path('tag/<int:tag_id>',TagView.as_view(), name='tag-detail'),
+    # path('tag/<int:tag_id>',TagView.as_view(), name='tag-detail'),
+    # path('search/',SearchView.as_view(), name='search'),
 
-    path('search/',SearchView.as_view(), name='search'),
-
-    # test
-    path('index/',TestIndexView.as_view(),name='nIndex'),
+    path('',TestIndexView.as_view(),name='nIndex'),
     path('hot/',HotIndexView.as_view(),name='hotIndex'),
     path('nsearch/',SearchIndexView.as_view(),name='searchIndex'),
     path('npost/<int:post_id>',PostDetailIndexView.as_view(), name='npost-detail'),

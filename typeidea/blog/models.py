@@ -79,6 +79,7 @@ class Tag(models.Model):
         verbose_name = verbose_name_plural = '标签'
 
 
+
 class Post(models.Model):
     STATUS_NORMAL = 1
     STATUS_DELETE = 0
@@ -92,17 +93,17 @@ class Post(models.Model):
     title = models.CharField(max_length=255, verbose_name='标题')
     desc = models.CharField(max_length=1024,blank=True, verbose_name='摘要')
     content = models.TextField(verbose_name='正文',help_text='正文必须为Markdown格式')
-    content_html = models.TextField(verbose_name='正文html格式',blank=True,editable=False)
     status = models.PositiveIntegerField(default=STATUS_NORMAL, choices=STATUS_ITEMS, verbose_name='状态')
     create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
-    is_md = models.BooleanField(default=False,verbose_name='使用markdown语法')
-
-    pv = models.PositiveIntegerField(default=1)
-    uv = models.PositiveIntegerField(default=1)
-
     category = models.ForeignKey(Category,on_delete=models.CASCADE,verbose_name='分类')
     tag = models.ManyToManyField(Tag,verbose_name='标签')
     owner = models.ForeignKey(User,on_delete=models.CASCADE, verbose_name='作者')
+
+    is_md = models.BooleanField(default=False,verbose_name='使用markdown语法')
+    content_html = models.TextField(verbose_name='正文html格式', blank=True, editable=False)
+    pv = models.PositiveIntegerField(default=1)
+    uv = models.PositiveIntegerField(default=1)
+
 
     @cached_property
     def tags(self):
@@ -147,7 +148,7 @@ class Post(models.Model):
             self.content_html = mistune.markdown(self.content)
         else:
             self.content_html = self.content
-        super().save(force_insert=force_insert,
+            super(Post, self).save(force_insert=force_insert,
                      force_update=force_update,
                      using=using,
                      update_fields=update_fields)

@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="referrer" content="origin">
     <!-- TDK and ICO -->
-    <title>【Jenkins 插件】使用 Publish Over SSH 远程传输文件和自动部署_CI/CD_TendCode</title>
+    <title>{{ post.title }}</title>
 
-<meta name="description" content="一般来说，使用 Jenkins 可以完成整个 CI/CD 的操作，之前关于源码下载、镜像构建、镜像推送等操作都只能算是 CI 的步骤，而这篇文章就来分享一下使用 Jenkins 完成一系列包括构建和部署的操作，同时记录一下我对 Publish Over SSH 插件的用法的理解。">
-<meta name="keywords" content="CI/CD,docker,docker-compose,Jenkins,Jenkins 插件,Publish Over SSH,容器化">
+<meta name="description" content="{{ post.title }}">
+<meta name="keywords" content="{{ post.desc }}">
 
     <link rel="shortcut icon" href="/static/blog/img/favicon.ico" type="image/x-icon"/>
     <!-- Bootstrap and font-awesome CSS -->
@@ -36,8 +36,8 @@
 <!--导航开始-->
 
 <nav class="navbar navbar-expand-md bg-white fixed-top blog-navbar py-md-0">
-    <a class="navbar-brand d-md-none d-lg-block" id="site-logo-name" href="/">
-        <strong class="px-2">TendCode</strong>
+    <a class="navbar-brand d-md-none d-lg-block" id="site-logo-name" href="/index/">
+        <strong class="px-2">LetCode</strong>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,22 +85,21 @@
 
             <div class="card rounded-0 border-0" id="article">
                 <div class="card-body px-2 px-md-3 pb-0">
-                    <h1 class="card-title text-center font-weight-bold text-info">【Jenkins 插件】使用 Publish Over SSH 远程传输文件和自动部署</h1>
+                    <h1 class="card-title text-center font-weight-bold text-info">{{ post.title }}</h1>
                     <hr>
                     <div class="text-center f-13">
                         <span class="mx-2" data-toggle="tooltip" data-placement="bottom"
-                              title="最后编辑于2019年08月19日">2019年7月30日 00:45</span>
-                        <span class="mx-2">阅读 1497</span>
-                        <a class="mx-2 to-com" href="#comment-block">评论 0</a>
+                              title="最后编辑于{{ post.create_time }}">{{ post.create_time }}</span>
+                        <span class="mx-2">阅读  {{ post.pv }}</span>
                     </div>
                     <div class="article-body mt-4 f-17" style="line-height:1.8">
 
-
+                    {% autoescape off %}
                     {{ post.content_html }}
-
+                    {% endautoescape  %}
                     {% for tag in post.tag.all %}
                     <div class="tag-cloud my-4">
-                        <a class="tags f-16" href="index/">{{ tag.name }}</a>
+                        <a class="tags f-16" href="{% url 'ntag-detail' tag.id %}">{{ tag.name }}</a>
                     </div>
                     {% endfor %}
 

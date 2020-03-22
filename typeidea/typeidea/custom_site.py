@@ -1,8 +1,8 @@
 from django.contrib.admin import AdminSite
 
 class CustomSite(AdminSite):
-    site_header = 'Typeidea'
-    site_title = 'Typeidea 管理后台'
+    site_header = 'LetCode'
+    site_title = 'LetCode 管理后台'
     index_title = '首页'
 
 

@@ -23,7 +23,7 @@ class PostViewSet(viewsets.ModelViewSet):
         if user_id is not None and user_id != -1:
             posts = Post.objects.filter(owner_id=user_id)
         elif category_id is not None and category_id != -1:
-            if category_id == '11':
+            if category_id == '-99':
                 posts = Post.objects.all()
             else:
                 posts = Post.objects.filter(category_id=category_id)
@@ -42,7 +42,7 @@ class PostViewSet(viewsets.ModelViewSet):
 
     def retrieve(self, request, *args, **kwargs):
         self.serializer_class = PostDetailSerializer
-        return super().retrieve(request, *args, **kwargs)
+        return super(PostViewSet, self).retrieve(request, *args, **kwargs)
 
 
 class CategoryViewSet(viewsets.ModelViewSet):
@@ -56,7 +56,7 @@ class CategoryViewSet(viewsets.ModelViewSet):
 
     def retrieve(self, request, *args, **kwargs):
         self.serializer_class = CategoryDetailSerializer
-        return super().retrieve(request, *args, **kwargs)
+        return super(CategoryViewSet, self).retrieve(request, *args, **kwargs)
 
 
 class TagViewSet(viewsets.ModelViewSet):
@@ -65,5 +65,6 @@ class TagViewSet(viewsets.ModelViewSet):
 
     def retrieve(self, request, *args, **kwargs):
         self.serializer_class = TagDetailSerializer
-        return super().retrieve(request, *args, **kwargs)
+        return super(TagViewSet, self).retrieve(request, *args, **kwargs)
+
 

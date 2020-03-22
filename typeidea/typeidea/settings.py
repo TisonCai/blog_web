@@ -87,10 +87,23 @@ WSGI_APPLICATION = 'typeidea.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',   #  指定数据库驱动
+        'NAME': 'myblog_db',   #  指定的数据库名
+        'USER': 'root',
+        'PASSWORD': 'xiaosenge',
+        'HOST': '127.0.0.1',
+        'PORT': 3306,
+        'CONN_MAX_AGE': 5 * 60, # 配置持久化连接
+        'OPTIONS': {'charset': 'utf8mb4'} # 指定编码为utf8mb4
     }
 }
 
