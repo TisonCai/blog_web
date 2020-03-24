@@ -113,6 +113,20 @@ class Post(models.Model):
     def hot_posts(cls):
         return cls.objects.filter(status=Post.STATUS_NORMAL).order_by('-pv')
 
+
+    @staticmethod
+    def get_by_owner(owner_id):
+        try:
+            user = User.objects.get(id=owner_id)
+        except Tag.DoesNotExist:
+            user = None
+            post_list = []
+        else:
+            post_list = user.post_set.filter(status=Post.STATUS_NORMAL)
+
+        return post_list,user
+
+
     @staticmethod
     def get_by_tag(tag_id):
         try:

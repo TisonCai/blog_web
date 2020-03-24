@@ -29,7 +29,7 @@
 <!--导航开始-->
 
 <nav class="navbar navbar-expand-md bg-white fixed-top blog-navbar py-md-0">
-    <a class="navbar-brand d-md-none d-lg-block" id="site-logo-name" href="/index/">
+    <a class="navbar-brand d-md-none d-lg-block" id="site-logo-name" href="{% url 'nIndex' %}">
         <strong class="px-2">LetCode</strong>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -118,7 +118,7 @@
     <div class="media mb-1 mb-sm-2 p-2 p-lg-3">
         <div class="media-body">
             <div class="text-muted mb-2 f-12">
-                <span>作者: {{ post.owner.username }}</span>
+                <a href="{% url 'nauthor-posts' post.owner.id %}"><span>作者: {{ post.owner.username }}</span></a>
                 <span><i class="fa fa-calendar-times-o ml-2 mr-1"></i>{{ post.create_time }}</span>
             </div>
             <h2 class="mt-0 font-weight-bold text-info f-17">

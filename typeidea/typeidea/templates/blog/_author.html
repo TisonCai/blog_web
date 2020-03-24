@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="referrer" content="origin">
     <!-- TDK and ICO -->
-    <title>文章分类_{{ category.name }}</title>
+    <title>文章标签_{{ tag.name }}</title>
 
     <meta name="description" content="CI/CD 是一种通过在应用开发阶段引入自动化来频繁向客户交付应用的方法。CI/CD 的核心概念是持续集成、持续交付和持续部署。具体而言，CI/CD 在整个应用生命周期内（从集成和测试阶段，到交付和部署）引入了持续自动化和持续监控。">
     <meta name="keywords" content="CI/CD">
@@ -73,8 +73,8 @@
         <div class="col-lg-8">
             <div class="description bg-white px-3 pt-3 pb-1">
                 <p class="float-right mb-0">共<span class="mx-2 text-info">{{ post_list.count }}</span>篇</p>
-                <h1 class="f-17"><strong>文章分类：{{ category.name }}</strong></h1>
-                <p class="f-16">{{ category.desc }}</p>
+                <h1 class="f-17"><strong>文章作者：{{ user.username }}</strong></h1>
+                <!--<p class="f-16">{{ tag.desc }}</p>-->
             </div>
             <div class="text-secondary font-weight-bold py-2 f-15 choice">
 

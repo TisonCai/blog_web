@@ -45,7 +45,7 @@ router.register(r'sidebar',SidebarViewSet,basename='api-sidebar')
 # class-based view
 from blog.views import PostDetailView,IndexView,CategoryView,TagView,\
                         SearchView,AuthorView,PostAddView,\
-                        TestIndexView,HotIndexView,SearchIndexView,PostDetailIndexView,CategoryIndexView,TagIndexView
+                        TestIndexView,HotIndexView,SearchIndexView,PostDetailIndexView,CategoryIndexView,TagIndexView,AuthorIndexView
 from config.views import LinkListView
 
 
@@ -73,9 +73,10 @@ urlpatterns = [
     path('npost/<int:post_id>',PostDetailIndexView.as_view(), name='npost-detail'),
     path('ncategory/<int:category_id>',CategoryIndexView.as_view(),name='ncategory-detail'),
     path('ntag/<int:tag_id>',TagIndexView.as_view(), name='ntag-detail'),
+    path('nauthor/<int:owner_id>', AuthorIndexView.as_view(), name='nauthor-posts'),
 
 
-    path('author/<int:owner_id>', AuthorView.as_view(), name='author'),
+    # path('author/<int:owner_id>', AuthorView.as_view(), name='author'),
 
     path('links/', LinkListView.as_view(), name='links'),
 

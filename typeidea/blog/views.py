@@ -16,6 +16,7 @@ from django.core.cache import cache
 from django.db.models import Q,F
 # Create your views here.
 
+
 def post_list(request,category_id=None, tag_id=None):
     tag = None
     category = None
@@ -366,5 +367,35 @@ class TagIndexView(ListView):
             'links': links,
             'post_list': post_list,
             'tag': tag,
+        })
+        return context
+
+
+
+class AuthorIndexView(ListView):
+    queryset = Post.lastes_posts()
+    paginate_by = 8
+    template_name = 'blog/_author.html'
+    context_object_name = 'post_list'
+
+    #
+    def get_context_data(self, *args, **kwargs):
+        from django.contrib.auth.models import User
+
+        context = super(AuthorIndexView, self).get_context_data(**kwargs)
+        tags = Tag.objects.filter(status=Tag.STATUS_NORMAL)
+        categorys = Category.objects.filter(status=Category.STATUS_NORMAL)
+        owner_id = self.kwargs.get('owner_id')
+        user = get_object_or_404(User, pk=owner_id)
+        post_list = Post.get_by_owner(owner_id)[0]
+
+        links = Link.objects.filter(status=Link.STATUS_NORMAL)
+        context.update({
+            'keyword': '',
+            'tags': tags,
+            'categorys': categorys,
+            'links': links,
+            'post_list': post_list,
+            'user': user,
         })
         return context
